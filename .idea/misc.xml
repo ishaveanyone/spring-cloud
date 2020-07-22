@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/eureka-server" />
+    <file type="web" url="file://$PROJECT_DIR$/storage" />
+    <file type="web" url="file://$PROJECT_DIR$/test-animal" />
+    <file type="web" url="file://$PROJECT_DIR$/test-api" />
+    <file type="web" url="file://$PROJECT_DIR$/test-comic" />
+    <file type="web" url="file://$PROJECT_DIR$/test-girl" />
+    <file type="web" url="file://$PROJECT_DIR$/test-storage" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/test_api/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/test-animal/pom.xml" />
+        <option value="$PROJECT_DIR$/test-comic/pom.xml" />
+        <option value="$PROJECT_DIR$/test-storage/pom.xml" />
+        <option value="$PROJECT_DIR$/test-girl/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

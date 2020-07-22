@@ -1,0 +1,35 @@
+
+
+package com.xupp.teststorage.storage.fileconvertor;
+
+
+import com.xupp.teststorage.SorageApplicationContextProvider;
+
+public class FileConvertorBuilder {
+
+    private  JacobFileConvertor jacobFileConvertor= SorageApplicationContextProvider.getBean(JacobFileConvertor.class); //事现配置好一些bena
+
+    private  KkfileviewFileConvertor kkfileviewFileConvertor= SorageApplicationContextProvider.getBean(KkfileviewFileConvertor.class); //事现配置好一些bena
+
+    //默认非单例
+    private boolean single=false;
+
+    public FileConvertorBuilder setSingle(boolean single) {
+
+        this.single = single;
+        return this;
+    }
+
+    public  IFileConvertor build(FileConvertorEnum fileConvertorEnum){
+
+        switch (fileConvertorEnum){
+            case JACOB:
+                return !single?new JacobFileConvertor():jacobFileConvertor;
+            case KKFILEVIEW:
+                return !single?new KkfileviewFileConvertor():kkfileviewFileConvertor;
+            default:
+                throw  new RuntimeException("未定义预览服务端类型");
+        }
+    }
+
+}

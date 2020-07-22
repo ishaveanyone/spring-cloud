@@ -1,0 +1,25 @@
+eureka:
+  instance:
+    hostname: localhost
+    metadata-map:
+      zone: defaultZone  #通过 这个 配置 过滤 同一个zone
+  client:
+    service-url:
+      defaultZone: http://localhost:8080/eureka
+    register-with-eureka: false
+    region: local
+    availability-zones:
+      local: defaultZone # 注意这个zone 配置需要用逗号分割
+spring:
+  application:
+    name: api
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 160000000
+        readTimeout: 160000000
+web:
+  static:
+    url: http://121.36.202.6:8099/share/server-image
+    imgdir: /usr/local/tomcat/apache-tomcat-8.5.46/webapps/share/server-image

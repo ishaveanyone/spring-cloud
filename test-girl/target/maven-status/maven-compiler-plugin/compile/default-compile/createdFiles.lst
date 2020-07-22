@@ -1,0 +1,7 @@
+com\xupp\testgirl\model\po\GirlPO.class
+com\xupp\testgirl\TestGirlApplication.class
+com\xupp\testgirl\dao\IGirlDAO.class
+com\xupp\testgirl\config\DBConfig.class
+com\xupp\testgirl\service\GirlService.class
+com\xupp\testgirl\model\KeyGenerator.class
+com\xupp\testgirl\domain\GirlDomain.class

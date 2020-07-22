@@ -1,0 +1,8 @@
+com\xupp\testanimal\domain\AnimalDomain.class
+com\xupp\testanimal\config\DBConfig.class
+com\xupp\testanimal\model\po\AnimalPO.class
+com\xupp\testanimal\service\AnimalService.class
+com\xupp\testanimal\TestAnimalApplication.class
+com\xupp\testanimal\dao\IAnimalDAO.class
+com\xupp\testanimal\model\KeyGenerator.class
+com\xupp\testanimal\service\MyTest.class

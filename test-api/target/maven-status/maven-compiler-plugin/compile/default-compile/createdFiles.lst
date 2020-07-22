@@ -1,0 +1,15 @@
+com\xupp\testapi\config\RibbonConfig.class
+com\xupp\testapi\service\StorageService.class
+com\xupp\testapi\service\ComicService.class
+com\xupp\testapi\TestApiApplication.class
+com\xupp\testapi\service\AnimalService.class
+com\xupp\testapi\controller\GirlController.class
+com\xupp\testapi\config\ApiDocConfig.class
+com\xupp\testapi\config\GlobalCorsConfig.class
+com\xupp\testapi\controller\AnimalController.class
+com\xupp\testapi\service\GirlService.class
+com\xupp\testapi\config\GlobalCorsConfig$1.class
+com\xupp\testapi\controller\ComicController.class
+com\xupp\testapi\service\TestServiceApi.class
+com\xupp\testapi\controller\StorageController.class
+com\xupp\testapi\UserCommand.class

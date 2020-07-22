@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="test-common" />
+        <module name="eureka-server" />
+        <module name="test-comic" />
+        <module name="test-storage" />
+        <module name="test-animal" />
+        <module name="test-api" />
+        <module name="test-girl" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="reptile" target="1.8" />
+      <module name="storage" target="1.8" />
+      <module name="test-comic (1)" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="eureka-server" options="-parameters" />
+      <module name="mytest" options="-parameters" />
+      <module name="reptile" options="-parameters" />
+      <module name="storage" options="-parameters" />
+      <module name="test-animal" options="-parameters" />
+      <module name="test-api" options="-parameters" />
+      <module name="test-comic" options="-parameters" />
+      <module name="test-comic (1)" options="-parameters" />
+      <module name="test-common" options="-parameters" />
+      <module name="test-girl" options="-parameters" />
+      <module name="test-storage" options="-parameters" />
+    </option>
+  </component>
+</project>

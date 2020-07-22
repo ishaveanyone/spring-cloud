@@ -1,0 +1,876 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6d8bcb23-489b-4eed-ad6f-5c5a3546252d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/$CACHE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/java/com/xupp/eurekaserver/EurekaServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/src/test/java/com/xupp/eurekaserver/EurekaServerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/target/classes/com/xupp/eurekaserver/EurekaServerApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/target/eureka-server-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/target/eureka-server-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/target/test-classes/com/xupp/eurekaserver/EurekaServerApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mytest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-animal/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-animal/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-animal/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-animal/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-animal/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-animal/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-animal/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-animal/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-animal/src/main/java/com/xupp/testanimal/TestAnimalApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-animal/src/main/java/com/xupp/testanimal/config/DBConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-animal/src/main/java/com/xupp/testanimal/dao/IAnimalDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-animal/src/main/java/com/xupp/testanimal/domain/AnimalDomain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-animal/src/main/java/com/xupp/testanimal/model/KeyGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-animal/src/main/java/com/xupp/testanimal/model/a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-animal/src/main/java/com/xupp/testanimal/model/po/AnimalPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-animal/src/main/java/com/xupp/testanimal/service/AnimalService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-animal/src/main/java/com/xupp/testanimal/service/MyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-animal/src/main/java/com/xupp/testanimal/service/a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-animal/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-animal/src/test/java/com/xupp/testanimal/TestAnimalApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-animal/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-animal/target/classes/com/xupp/testanimal/TestAnimalApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-animal/target/classes/com/xupp/testanimal/config/DBConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-animal/target/classes/com/xupp/testanimal/dao/IAnimalDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-animal/target/classes/com/xupp/testanimal/domain/AnimalDomain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-animal/target/classes/com/xupp/testanimal/model/KeyGenerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-animal/target/classes/com/xupp/testanimal/model/po/AnimalPO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-animal/target/classes/com/xupp/testanimal/service/AnimalService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-animal/target/classes/com/xupp/testanimal/service/MyTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-animal/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-animal/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-animal/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-animal/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-animal/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-animal/target/test-animal-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-animal/target/test-animal-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-animal/target/test-classes/com/xupp/testanimal/TestAnimalApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-api/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-api/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-api/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-api/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-api/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-api/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-api/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-api/src/main/java/com/xupp/testapi/TestApiApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-api/src/main/java/com/xupp/testapi/UserCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-api/src/main/java/com/xupp/testapi/config/ApiDocConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-api/src/main/java/com/xupp/testapi/config/GlobalCorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-api/src/main/java/com/xupp/testapi/config/RibbonConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-api/src/main/java/com/xupp/testapi/controller/AnimalController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-api/src/main/java/com/xupp/testapi/controller/ComicController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-api/src/main/java/com/xupp/testapi/controller/GirlController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-api/src/main/java/com/xupp/testapi/controller/StorageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-api/src/main/java/com/xupp/testapi/service/AnimalService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-api/src/main/java/com/xupp/testapi/service/ComicService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-api/src/main/java/com/xupp/testapi/service/GirlService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-api/src/main/java/com/xupp/testapi/service/StorageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-api/src/main/java/com/xupp/testapi/service/TestServiceApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-api/src/main/resources/application-linux.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-api/src/main/resources/application-window.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-api/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-api/src/test/java/com/xupp/testapi/TestApiApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-api/target/classes/application-linux.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-api/target/classes/application-window.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-api/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-api/target/classes/com/xupp/testapi/TestApiApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-api/target/classes/com/xupp/testapi/UserCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-api/target/classes/com/xupp/testapi/config/ApiDocConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-api/target/classes/com/xupp/testapi/config/GlobalCorsConfig$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-api/target/classes/com/xupp/testapi/config/GlobalCorsConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-api/target/classes/com/xupp/testapi/config/RibbonConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-api/target/classes/com/xupp/testapi/controller/AnimalController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-api/target/classes/com/xupp/testapi/controller/ComicController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-api/target/classes/com/xupp/testapi/controller/GirlController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-api/target/classes/com/xupp/testapi/controller/StorageController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-api/target/classes/com/xupp/testapi/service/AnimalService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-api/target/classes/com/xupp/testapi/service/ComicService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-api/target/classes/com/xupp/testapi/service/GirlService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-api/target/classes/com/xupp/testapi/service/StorageService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-api/target/classes/com/xupp/testapi/service/TestServiceApi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-api/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-api/target/test-classes/com/xupp/testapi/TestApiApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-api/target/test_api-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-api/target/test_api-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-api/test-api.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-comic/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-comic/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-comic/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-comic/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-comic/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-comic/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-comic/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-comic/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-comic/src/main/java/com/xupp/testcomic/TestComicApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-comic/src/main/java/com/xupp/testcomic/config/DBConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-comic/src/main/java/com/xupp/testcomic/dao/IComicDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-comic/src/main/java/com/xupp/testcomic/domain/ComicDomain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-comic/src/main/java/com/xupp/testcomic/model/KeyGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-comic/src/main/java/com/xupp/testcomic/model/a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-comic/src/main/java/com/xupp/testcomic/model/po/ComicPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-comic/src/main/java/com/xupp/testcomic/service/ComicService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-comic/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-comic/src/test/java/com/xupp/testcomic/TestComicApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-comic/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-comic/target/classes/com/xupp/testcomic/TestComicApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-comic/target/classes/com/xupp/testcomic/config/DBConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-comic/target/classes/com/xupp/testcomic/dao/IComicDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-comic/target/classes/com/xupp/testcomic/domain/ComicDomain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-comic/target/classes/com/xupp/testcomic/model/KeyGenerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-comic/target/classes/com/xupp/testcomic/model/po/ComicPO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-comic/target/classes/com/xupp/testcomic/service/ComicService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-comic/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-comic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-comic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-comic/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-comic/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-comic/target/test-classes/com/xupp/testcomic/TestComicApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-comic/target/test-comic-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-comic/target/test-comic-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-common/src/main/java/com/xupp/TestClone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-common/src/main/java/com/xupp/a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-common/src/main/java/com/xupp/constant/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-common/src/main/java/com/xupp/util/ZipUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-common/target/classes/com/xupp/TestClone.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-common/target/classes/com/xupp/constant/Constants$SOURCEFROM.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-common/target/classes/com/xupp/constant/Constants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-common/target/classes/com/xupp/util/ZipUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-common/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-common/target/test-common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-common/test-common.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-girl/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-girl/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-girl/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-girl/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-girl/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-girl/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-girl/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-girl/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-girl/src/main/java/com/xupp/testgirl/TestGirlApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-girl/src/main/java/com/xupp/testgirl/config/DBConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-girl/src/main/java/com/xupp/testgirl/dao/IGirlDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-girl/src/main/java/com/xupp/testgirl/domain/GirlDomain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-girl/src/main/java/com/xupp/testgirl/model/KeyGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-girl/src/main/java/com/xupp/testgirl/model/a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-girl/src/main/java/com/xupp/testgirl/model/po/GirlPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-girl/src/main/java/com/xupp/testgirl/service/GirlService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-girl/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-girl/src/test/java/com/xupp/testgirl/TestGirlApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-girl/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-girl/target/classes/com/xupp/testgirl/TestGirlApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-girl/target/classes/com/xupp/testgirl/config/DBConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-girl/target/classes/com/xupp/testgirl/dao/IGirlDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-girl/target/classes/com/xupp/testgirl/domain/GirlDomain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-girl/target/classes/com/xupp/testgirl/model/KeyGenerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-girl/target/classes/com/xupp/testgirl/model/po/GirlPO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-girl/target/classes/com/xupp/testgirl/service/GirlService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-girl/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-girl/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-girl/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-girl/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-girl/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-girl/target/test-classes/com/xupp/testgirl/TestGirlApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-girl/target/test-girl-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-girl/target/test-girl-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/src/main/java/com/xupp/teststorage/SorageApplicationContextProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/src/main/java/com/xupp/teststorage/TestStorageApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/src/main/java/com/xupp/teststorage/config/MongoStorageConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/src/main/java/com/xupp/teststorage/define/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/src/main/java/com/xupp/teststorage/domain/FileMaterialDomain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/src/main/java/com/xupp/teststorage/domain/IMaterialUD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/src/main/java/com/xupp/teststorage/domain/NetURLMaterialDomain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/src/main/java/com/xupp/teststorage/domain/ZipMaterialDomain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/src/main/java/com/xupp/teststorage/facator/FileConvertorFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/src/main/java/com/xupp/teststorage/facator/StorageServerFactor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/src/main/java/com/xupp/teststorage/replite/ImageReptile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/src/main/java/com/xupp/teststorage/service/CommonService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/src/main/java/com/xupp/teststorage/service/FileMaterialService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/src/main/java/com/xupp/teststorage/service/UrlMaterialService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/src/main/java/com/xupp/teststorage/service/ZipMaterialService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/src/main/java/com/xupp/teststorage/storage/IStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/src/main/java/com/xupp/teststorage/storage/MongoStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/src/main/java/com/xupp/teststorage/storage/StorageBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/src/main/java/com/xupp/teststorage/storage/StorageServerEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/src/main/java/com/xupp/teststorage/storage/fileconvertor/FileConvertorBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/src/main/java/com/xupp/teststorage/storage/fileconvertor/FileConvertorEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/src/main/java/com/xupp/teststorage/storage/fileconvertor/IFileConvertor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/src/main/java/com/xupp/teststorage/storage/fileconvertor/JacobFileConvertor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/src/main/java/com/xupp/teststorage/storage/fileconvertor/KkfileviewFileConvertor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/src/main/java/com/xupp/teststorage/storage/keygenerator/IKeyGenerate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/src/main/java/com/xupp/teststorage/storage/keygenerator/MongoKeyGenerate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/src/main/java/com/xupp/teststorage/storage/keygenerator/OssKeyGenerate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/src/main/java/com/xupp/teststorage/util/FileUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/src/main/java/com/xupp/teststorage/util/HttpUrlUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/src/main/java/com/xupp/teststorage/util/OfficeToPdf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/src/main/java/com/xupp/teststorage/util/StringUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/src/main/java/com/xupp/teststorage/util/SystemUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/src/main/java/com/xupp/teststorage/util/WpsToPdf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/src/main/resources/dll/jacob/jacob-1.18-M2-x64.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/src/main/resources/dll/jacob/jacob-1.18-M2-x86.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/src/main/resources/dll/jacob/jacob-1.18-x64.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/src/main/resources/dll/jacob/jacob-1.18-x86.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/src/test/java/com/xupp/teststorage/TestStorageApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/target/classes/com/xupp/teststorage/SorageApplicationContextProvider.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/target/classes/com/xupp/teststorage/TestStorageApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/target/classes/com/xupp/teststorage/config/MongoStorageConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/target/classes/com/xupp/teststorage/define/Constants$Material$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/target/classes/com/xupp/teststorage/define/Constants$Material$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/target/classes/com/xupp/teststorage/define/Constants$Material$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/target/classes/com/xupp/teststorage/define/Constants$Material$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/target/classes/com/xupp/teststorage/define/Constants$Material$ATTRS.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/target/classes/com/xupp/teststorage/define/Constants$Material$ParamDefine.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/target/classes/com/xupp/teststorage/define/Constants$Material.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/target/classes/com/xupp/teststorage/define/Constants$WebSocket.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/target/classes/com/xupp/teststorage/define/Constants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/target/classes/com/xupp/teststorage/domain/FileMaterialDomain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/target/classes/com/xupp/teststorage/domain/IMaterialUD.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/target/classes/com/xupp/teststorage/domain/NetURLMaterialDomain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/target/classes/com/xupp/teststorage/domain/ZipMaterialDomain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/target/classes/com/xupp/teststorage/facator/FileConvertorFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/target/classes/com/xupp/teststorage/facator/StorageServerFactor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/target/classes/com/xupp/teststorage/replite/ImageReptile.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/target/classes/com/xupp/teststorage/service/CommonService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/target/classes/com/xupp/teststorage/service/FileMaterialService$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/target/classes/com/xupp/teststorage/service/FileMaterialService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/target/classes/com/xupp/teststorage/service/UrlMaterialService$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/target/classes/com/xupp/teststorage/service/UrlMaterialService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/target/classes/com/xupp/teststorage/service/ZipMaterialService$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/target/classes/com/xupp/teststorage/service/ZipMaterialService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/target/classes/com/xupp/teststorage/storage/IStorage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/target/classes/com/xupp/teststorage/storage/MongoStorage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/target/classes/com/xupp/teststorage/storage/StorageBuilder$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/target/classes/com/xupp/teststorage/storage/StorageBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/target/classes/com/xupp/teststorage/storage/StorageServerEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/target/classes/com/xupp/teststorage/storage/fileconvertor/FileConvertorBuilder$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/target/classes/com/xupp/teststorage/storage/fileconvertor/FileConvertorBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/target/classes/com/xupp/teststorage/storage/fileconvertor/FileConvertorEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/target/classes/com/xupp/teststorage/storage/fileconvertor/IFileConvertor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/target/classes/com/xupp/teststorage/storage/fileconvertor/JacobFileConvertor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/target/classes/com/xupp/teststorage/storage/fileconvertor/KkfileviewFileConvertor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/target/classes/com/xupp/teststorage/storage/keygenerator/IKeyGenerate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/target/classes/com/xupp/teststorage/storage/keygenerator/MongoKeyGenerate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/target/classes/com/xupp/teststorage/storage/keygenerator/OssKeyGenerate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/target/classes/com/xupp/teststorage/util/FileUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/target/classes/com/xupp/teststorage/util/HttpUrlUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/target/classes/com/xupp/teststorage/util/OfficeToPdf.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/target/classes/com/xupp/teststorage/util/StringUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/target/classes/com/xupp/teststorage/util/SystemUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/target/classes/com/xupp/teststorage/util/WpsToPdf.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/target/classes/dll/jacob/jacob-1.18-M2-x64.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/target/classes/dll/jacob/jacob-1.18-M2-x86.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/target/classes/dll/jacob/jacob-1.18-x64.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/target/classes/dll/jacob/jacob-1.18-x86.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/target/test-classes/com/xupp/teststorage/TestStorageApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/target/test-storage-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-storage/target/test-storage-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web.static.imgdir/8f371a401e3c4eb5a0b0ae12e299f7ac/0_aeecd2aa24164259bd99ee54e9d58544" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web.static.imgdir/8f371a401e3c4eb5a0b0ae12e299f7ac/10_839e6e4bbbd3416998397f1f2add6fe2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web.static.imgdir/8f371a401e3c4eb5a0b0ae12e299f7ac/11_3fb08565cfc04b2b83ad806dd4037758.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web.static.imgdir/8f371a401e3c4eb5a0b0ae12e299f7ac/12_5d6dc7cc009d483bb7e14dd76159dcff.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web.static.imgdir/8f371a401e3c4eb5a0b0ae12e299f7ac/13_f69f8893cb8f445498c2ca5a1f7fe2de.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web.static.imgdir/8f371a401e3c4eb5a0b0ae12e299f7ac/14_4448e6cc5dd14c4f8154b80bd8bf6d05.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web.static.imgdir/8f371a401e3c4eb5a0b0ae12e299f7ac/15_9e8fc68117754be6b617b193928a5b2f.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web.static.imgdir/8f371a401e3c4eb5a0b0ae12e299f7ac/16_9e5918445c504155b4280d80d3f1a7ec.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web.static.imgdir/8f371a401e3c4eb5a0b0ae12e299f7ac/17_e873e310493046e2b80e317e8bba8fc2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web.static.imgdir/8f371a401e3c4eb5a0b0ae12e299f7ac/18_5575332b08a749dc9188421e1df6d025.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web.static.imgdir/8f371a401e3c4eb5a0b0ae12e299f7ac/19_ea8e8d4058464759909721c784efcf22.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web.static.imgdir/8f371a401e3c4eb5a0b0ae12e299f7ac/1_c54abbb5e4f44912bb1eb346f4923e1c.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web.static.imgdir/8f371a401e3c4eb5a0b0ae12e299f7ac/20_3c01d14452f44b18b2c34e542d3d358a.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web.static.imgdir/8f371a401e3c4eb5a0b0ae12e299f7ac/21_5ea4842e74214bf5aa79b1af6bf905a1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web.static.imgdir/8f371a401e3c4eb5a0b0ae12e299f7ac/22_0f180eff2a3948d2adf535604eb8ca98.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web.static.imgdir/8f371a401e3c4eb5a0b0ae12e299f7ac/23_8e3b93b9f858414ead4cbd4a7354e929.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web.static.imgdir/8f371a401e3c4eb5a0b0ae12e299f7ac/2_63fe5c67a1b54047b3e06aa2f5de62d0.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web.static.imgdir/8f371a401e3c4eb5a0b0ae12e299f7ac/3_69dbde5dd89449ba810d336a502fab2c.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web.static.imgdir/8f371a401e3c4eb5a0b0ae12e299f7ac/4_15848ccfa8a442e0a9369a324d02e6bc.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web.static.imgdir/8f371a401e3c4eb5a0b0ae12e299f7ac/5_f07288004b4c45d38ab3b022467d7a4c.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web.static.imgdir/8f371a401e3c4eb5a0b0ae12e299f7ac/6_a8d2284d5dd4479d96db8f9530a2c19a.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web.static.imgdir/8f371a401e3c4eb5a0b0ae12e299f7ac/7_e6acb38a5cf64a798c89e5c7b86bbbcb.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web.static.imgdir/8f371a401e3c4eb5a0b0ae12e299f7ac/8_b4ebf0da4b694552be32a7999f78d186.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web.static.imgdir/8f371a401e3c4eb5a0b0ae12e299f7ac/9_1a3cd6a03dbe44f593c61a80b4e5013f.jpeg" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="mytest" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="H:\IDEAWORKSPACE\xupp\mytest\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="G:/maven/apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="G:\maven\apache-maven-3.5.4\conf\settings-阿里.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1d1H0p8bSvr0a1je9BoEDOjYgiq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="G:/Android" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.xupp.teststorage" />
+      <recent name="com.xupp.testanimal" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.xupp.testapi.controller" />
+      <recent name="com.xupp.testapi.service" />
+      <recent name="com.xupp.teststorage.domain" />
+      <recent name="com.xupp.teststorage.service" />
+      <recent name="com.xupp.teststorage.util" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\IDEAWORKSPACE\xupp\mytest\test-api\src\main\resources" />
+      <recent name="H:\IDEAWORKSPACE\xupp\mytest\test-animal\src\main\java\com\xupp\testanimal" />
+      <recent name="H:\IDEAWORKSPACE\xupp\mytest\test-girl\src\main\java\com\xupp\testgirl" />
+      <recent name="H:\IDEAWORKSPACE\xupp\mytest\test-storage\src\main\java\com\xupp\teststorage\util" />
+      <recent name="H:\IDEAWORKSPACE\xupp\mytest\test-api\src\main\java\com\xupp\testapi\config" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.TestStorageApplication">
+    <configuration name="ImageReptile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xupp.teststorage.replite.ImageReptile" />
+      <module name="test-storage" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xupp.teststorage.replite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ImageUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xupp.reptile.util.ImageUtil" />
+      <module name="reptile" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xupp.reptile.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StorageController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xupp.testapi.controller.StorageController" />
+      <module name="test-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xupp.testapi.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestClone" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xupp.TestClone" />
+      <module name="test-common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xupp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xupp.eurekaserver.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReptileApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="reptile" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xupp.reptile.ReptileApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAnimalApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="test-animal" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xupp.testanimal.TestAnimalApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="test-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xupp.testapi.TestApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestComicApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="test-animal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xupp.testcomic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xupp.testcomic.TestComicApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestComicApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="test-comic" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xupp.testcomic.TestComicApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestGirlApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="test-girl" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xupp.testgirl.TestGirlApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestStorageApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="test-storage" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xupp.teststorage.TestStorageApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.TestComicApplication (1)" />
+        <item itemvalue="Application.StorageController" />
+        <item itemvalue="Application.TestClone" />
+        <item itemvalue="Application.ImageReptile" />
+        <item itemvalue="Application.ImageUtil" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6d8bcb23-489b-4eed-ad6f-5c5a3546252d" name="Default Changelist" comment="" />
+      <created>1591585458941</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591585458941</updated>
+      <workItem from="1591585462277" duration="2610000" />
+      <workItem from="1591592522109" duration="14838000" />
+      <workItem from="1591663726986" duration="18791000" />
+      <workItem from="1591750154904" duration="28675000" />
+      <workItem from="1591840112270" duration="18471000" />
+      <workItem from="1591928860947" duration="15649000" />
+      <workItem from="1592039444401" duration="1195000" />
+      <workItem from="1592133312295" duration="3504000" />
+      <workItem from="1592186013718" duration="31952000" />
+      <workItem from="1592288013512" duration="15703000" />
+      <workItem from="1592355159791" duration="2012000" />
+      <workItem from="1592811379916" duration="1264000" />
+      <workItem from="1593141008890" duration="617000" />
+      <workItem from="1594882221570" duration="5206000" />
+      <workItem from="1595160322751" duration="1199000" />
+      <workItem from="1595218892385" duration="4588000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="71" key="#Notifications" timestamp="1591592471692">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1591592471692" />
+    <state x="361" y="71" key="#Project_Structure" timestamp="1591794663345">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1591794663345" />
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1591874553567">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1591874553567" />
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1591713640908" />
+    <state x="332" y="338" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1591950211310">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="332" y="338" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1591950211310" />
+    <state x="332" y="338" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1591774370400" />
+    <state x="548" y="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1591774372628">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="548" y="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.824@0.0.1536.824" timestamp="1591774372628" />
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1592212602181">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1592212602181" />
+    <state x="225" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1591779496556" />
+    <state width="1123" height="466" key="DebuggerActiveHint" timestamp="1592204505498">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1123" height="466" key="DebuggerActiveHint/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1592204505498" />
+    <state width="418" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1591782240440" />
+    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1595408104669">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1595408104669" />
+    <state width="1493" height="2" key="GridCell.Tab.0.bottom" timestamp="1592314631147">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="385" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1592215147766" />
+    <state width="1493" height="2" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592314631147" />
+    <state width="1493" height="2" key="GridCell.Tab.0.center" timestamp="1592314631147">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="385" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1592215147766" />
+    <state width="1493" height="2" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1592314631147" />
+    <state width="1493" height="2" key="GridCell.Tab.0.left" timestamp="1592314631147">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="385" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1592215147766" />
+    <state width="1493" height="2" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1592314631147" />
+    <state width="1493" height="2" key="GridCell.Tab.0.right" timestamp="1592314631147">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="385" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1592215147766" />
+    <state width="1493" height="2" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1592314631147" />
+    <state width="1493" height="2" key="GridCell.Tab.1.bottom" timestamp="1592314631147">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="385" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1592215147672" />
+    <state width="1493" height="2" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592314631147" />
+    <state width="1493" height="2" key="GridCell.Tab.1.center" timestamp="1592314631147">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="385" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1592215147672" />
+    <state width="1493" height="2" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1592314631147" />
+    <state width="1493" height="2" key="GridCell.Tab.1.left" timestamp="1592314631147">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="385" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1592215147671" />
+    <state width="1493" height="2" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1592314631147" />
+    <state width="1493" height="2" key="GridCell.Tab.1.right" timestamp="1592314631147">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="385" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1592215147672" />
+    <state width="1493" height="2" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1592314631147" />
+    <state width="1493" height="255" key="GridCell.Tab.2.bottom" timestamp="1592298563023">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="385" key="GridCell.Tab.2.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1592215147672" />
+    <state width="1493" height="255" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592298563023" />
+    <state width="1493" height="255" key="GridCell.Tab.2.center" timestamp="1592298563023">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="385" key="GridCell.Tab.2.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1592215147672" />
+    <state width="1493" height="255" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1592298563023" />
+    <state width="1493" height="255" key="GridCell.Tab.2.left" timestamp="1592298563023">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="385" key="GridCell.Tab.2.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1592215147672" />
+    <state width="1493" height="255" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1592298563023" />
+    <state width="1493" height="255" key="GridCell.Tab.2.right" timestamp="1592298563023">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="385" key="GridCell.Tab.2.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1592215147672" />
+    <state width="1493" height="255" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1592298563023" />
+    <state x="270" y="0" width="996" height="824" key="SettingsEditor" timestamp="1592290654086">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="0" width="996" height="824" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1592290654086" />
+    <state width="776" height="420" key="XDebugger.FullValuePopup" timestamp="1592136320983">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="776" height="420" key="XDebugger.FullValuePopup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1592136320983" />
+    <state x="321" y="149" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1591840617363">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="321" y="149" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1591840617363" />
+    <state x="447" y="145" width="642" height="534" key="find.popup" timestamp="1592282145547">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="447" y="145" width="642" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1592282145547" />
+    <state x="311" y="154" width="1180" height="652" key="new project wizard" timestamp="1592307994074">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="311" y="154" key="new project wizard/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1592210608558" />
+    <state x="311" y="154" width="1180" height="652" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1592307994074" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1591949323305">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1591949323305" />
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1591781665815" />
+    <state x="425" y="66" width="672" height="676" key="search.everywhere.popup" timestamp="1592282740788">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="66" width="672" height="676" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1592282740788" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test-storage/src/main/java/com/xupp/teststorage/storage/MongoStorage.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test-storage/src/main/java/com/xupp/teststorage/storage/StorageBuilder.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test-storage/src/main/java/com/xupp/teststorage/storage/MongoStorage.java</url>
+          <line>113</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test-storage/src/main/java/com/xupp/teststorage/domain/NetURLMaterialDomain.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test-storage/src/main/java/com/xupp/teststorage/domain/NetURLMaterialDomain.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test-storage/src/main/java/com/xupp/teststorage/storage/MongoStorage.java</url>
+          <line>301</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test-api/src/main/java/com/xupp/testapi/controller/StorageController.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test-api/src/main/java/com/xupp/testapi/controller/ComicController.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test-api/src/main/java/com/xupp/testapi/controller/ComicController.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test-api/src/main/java/com/xupp/testapi/controller/ComicController.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test-api/src/main/java/com/xupp/testapi/controller/ComicController.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test-api/src/main/java/com/xupp/testapi/controller/ComicController.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test-api/src/main/java/com/xupp/testapi/controller/ComicController.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test-api/src/main/java/com/xupp/testapi/controller/ComicController.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test-api/src/main/java/com/xupp/testapi/controller/ComicController.java</url>
+          <line>82</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test-api/src/main/java/com/xupp/testapi/controller/ComicController.java</url>
+          <line>97</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test-api/src/main/java/com/xupp/testapi/controller/ComicController.java</url>
+          <line>103</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test-storage/src/main/java/com/xupp/teststorage/service/UrlMaterialService.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test-storage/src/main/java/com/xupp/teststorage/domain/NetURLMaterialDomain.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test-storage/src/main/java/com/xupp/teststorage/domain/NetURLMaterialDomain.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test-storage/src/main/java/com/xupp/teststorage/domain/NetURLMaterialDomain.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test-api/src/main/java/com/xupp/testapi/controller/StorageController.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test-storage/src/main/java/com/xupp/teststorage/service/UrlMaterialService.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test-storage/src/main/java/com/xupp/teststorage/service/UrlMaterialService.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test-comic/src/main/java/com/xupp/testcomic/domain/ComicDomain.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test-api/src/main/java/com/xupp/testapi/controller/StorageController.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test-api/src/main/java/com/xupp/testapi/controller/StorageController.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test-api/src/main/java/com/xupp/testapi/controller/StorageController.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/eureka-server/src/main/java/com/xupp/eurekaserver/EurekaServerApplication.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/test-storage/src/main/java/com/xupp/teststorage/storage/IStorage.java</url>
+          <line>80</line>
+          <properties class="com.xupp.teststorage.storage.IStorage" method="zipDownload">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/mytest$TestGirlApplication.ic" NAME="TestGirlApplication Coverage Results" MODIFIED="1592214049172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

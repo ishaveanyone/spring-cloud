@@ -1,0 +1,7 @@
+com\xupp\testcomic\TestComicApplication.class
+com\xupp\testcomic\model\KeyGenerator.class
+com\xupp\testcomic\dao\IComicDAO.class
+com\xupp\testcomic\config\DBConfig.class
+com\xupp\testcomic\domain\ComicDomain.class
+com\xupp\testcomic\model\po\ComicPO.class
+com\xupp\testcomic\service\ComicService.class

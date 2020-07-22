@@ -1,0 +1,48 @@
+management:
+  endpoints:
+    web:
+      base-path: /author # 使用这个方式修改监控上下文
+eureka:
+  instance:
+    health-check-url-path: ${management.endpoints.web.base-path}/health
+    status-page-url-path: ${management.endpoints.web.base-path}/info # 相对路径配置
+    # status-page-url: 这个是绝对路径配置的方式
+    hostname: localhost
+  client:
+    service-url:
+      defaultZone: http://localhost:8080/eureka
+    region: local
+    availability-zones:
+      local: defaultZone
+    prefer-same-zone-eureka: true # 如果是 true 那么通过region 找到对应 zone 并通过zone 找到对应url进行注册 ，并且不会继续注册到其他注册中心并维护心跳  如果是false 那么注册到serviceUrl第一个上 ，并且 不会继续往下注册 并且维护心跳
+spring:
+  application:
+    name: storage
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
+server:
+  port: 8085
+storage:
+  #  jcsjdirs: 测试目录1,测试目录2,测试目录3
+  type: mongo # 默认启用文服务类型
+  convertor: #文件预览配置
+    type: KKFILEVIEW #默认使用 jacob进行文件的 预览
+    environment: office # 本机使用的office产品
+    server: http://127.0.0.1:8012/ #如果使用 office 其他服务端帮助转换返回地址 请配置服务端地址
+  oss:
+    endpoint: http://oss-cn-shanghai.aliyuncs.com #文件服务节点
+    accessKeyId: LTAI4FtzjQniwH44W4z31LY7 #ak
+    accessKeySecret: Y2EdnLiy9ZyHJ1uJgQ0iEe8ZphrUOA #sk
+    bucketName: ghxt-oss # 命名空间
+  mongo:
+    host: 127.0.0.1 # 服务器地址
+    port: 27017 # 对应的Mongo 监听端口
+    database: fs
+    collection: ghxt-mongo # 默认的存储集合
+    auth: # 是否开启用户验证的方式
+      enable: false #是否开启用户验证
+      username: useroms #配置授权用户对应的用户名称
+      password: Passw0rd #配置授权用户对应的用户密码
+      database: admin  #认证用户存放的数据库位置
