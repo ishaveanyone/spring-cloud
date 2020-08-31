@@ -1,28 +1,58 @@
 /**
- * Date: 2020-06-10 15:15
+ * Date: 2020-06-09 16:07
  * Author: xupp
  */
 
 package com.xupp.testapi.service;
 
-import org.springframework.cloud.openfeign.FeignClient;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 
-@FeignClient(name = "comic")
-public interface ComicService {
-    @PostMapping("/comic")
-    String save(
-            @RequestParam("name") String name,
-            @RequestParam("type")  String type,
-            @RequestParam("sourceUrl")  String sourceUrl,
-            @RequestParam("description")  String description
-    );
-    @GetMapping("/comic/cover")
-    String setCover(@RequestParam("refId") String refId,@RequestParam("coverUrl") String coverUrl);
+import com.xupp.testapi.domain.ComicDomain;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
 
+@RestController
+public class ComicService {
+
+    @Autowired
+    private ComicDomain comicDomain;
+
+    /**
+     * 获取列表
+     */
     @GetMapping("/list/page/{pageIndex}/{pageSize}")
-    Object list(@PathVariable("pageIndex") Integer pageIndex,@PathVariable("pageSize") Integer pageSize);
+    public Object listComics(@PathVariable  Integer pageIndex,@PathVariable Integer pageSize){
+        return comicDomain.list(pageIndex,pageSize);
+    }
+
+    /**
+     * 保存一条记录
+     */
+    @PostMapping("/comic")
+    public String save(
+            @RequestParam(name = "name")  String name,
+            @RequestParam(name = "type")  String type,
+            @RequestParam(name = "sourceUrl")  String sourceUrl,
+            @RequestParam(name = "description")  String description
+
+    ){
+        return comicDomain.save(name,type,sourceUrl,description).getId();
+    }
+
+    /**
+     * 设置漫画的封面图片
+     * @param refId
+     * @param coverUrl
+     * @return
+     */
+    @GetMapping("/comic/cover")
+    public Object setCover(
+           @RequestParam(name = "refId") String refId,
+           @RequestParam("coverUrl") String  coverUrl
+
+    ){
+        return comicDomain.setCover(refId,coverUrl);
+    }
+
+
+
 }

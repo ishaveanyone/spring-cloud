@@ -42,6 +42,7 @@ public class NetURLMaterialDomain implements IMaterialUD{
             File parentFileDir= Files.createTempDirectory("comic").toFile();
             for(int i=0;i<imageSrcs.size();i++){
                 String imageName = imageSrcs.get(i).substring(imageSrcs.get(i).lastIndexOf("/") + 1);
+                imageName+=".jpeg";
                 File targetFile = new File(parentFileDir, i+"_"+imageName);
                 FileUtils.copyInputStreamToFile(streams.get(i), targetFile);
                 Map<String,String> options=new HashMap();
@@ -82,4 +83,5 @@ public class NetURLMaterialDomain implements IMaterialUD{
         }
         return zip_file;
     }
+
 }

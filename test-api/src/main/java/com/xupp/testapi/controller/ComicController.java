@@ -6,9 +6,12 @@
 package com.xupp.testapi.controller;
 
 import com.xupp.constant.Constants;
+import com.xupp.testapi.domain.ComicDomain;
+import com.xupp.testapi.domain.IMaterialUD;
 import com.xupp.testapi.service.ComicService;
-import com.xupp.testapi.service.StorageService;
+
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
@@ -16,23 +19,30 @@ import org.springframework.web.multipart.MultipartFile;
 import javax.servlet.http.HttpServletRequest;
 import java.io.File;
 import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.UUID;
 
 @RestController
 @RequestMapping("/comic")
 public class ComicController {
 
-
+    @Autowired
+    private ComicDomain comicDomain;
     @Value("${web.static.url}")
     private String staticUrl;
     @Value("${web.static.imgdir}")
     private String imgdir;
 
     @Autowired
-    private ComicService comicService;
+    @Qualifier(Constants.SOURCEFROM.ZIP)
+    IMaterialUD zipMaterialUD;
 
     @Autowired
-    private StorageService storageService;
+    @Qualifier(Constants.SOURCEFROM.URL)
+    IMaterialUD urlMaterialUD;
+
+
     @PostMapping("/comic")
     public Object save(
             @RequestParam String name,
@@ -40,7 +50,7 @@ public class ComicController {
             @RequestParam String sourceUrl,
             @RequestParam String description
             ){
-      return comicService.save(name,type,sourceUrl,description);
+      return comicDomain.save(name,type,sourceUrl,description);
     }
 
     /**
@@ -51,7 +61,7 @@ public class ComicController {
      */
     @GetMapping("/comics/{pageIndex}/{pageSize}")
     public Object list(@PathVariable Integer pageIndex,@PathVariable Integer pageSize){
-        return comicService.list(pageIndex,pageSize);
+        return comicDomain.list(pageIndex,pageSize);
     }
 
     /**
@@ -80,7 +90,7 @@ public class ComicController {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        return comicService.setCover(refId,httpPath+"/"+newName);
+        return comicDomain.setCover(refId,httpPath+"/"+newName);
     }
 
     /**
@@ -95,13 +105,17 @@ public class ComicController {
             @RequestParam String description,
             @RequestParam String title
     ){
-        String refId=comicService.save(
+        String refId=comicDomain.save(
                 title,
                 Constants.SOURCEFROM.URL,
                 url,
                 description
-                );
-        storageService.uploadUrl(refId,url);
+                ).getId();
+        Map<String,Object> maps=new HashMap(){{
+            put("url",url);
+            put("refId",refId);
+        }};
+        urlMaterialUD.upload(maps);
         return refId;
     }
 
@@ -114,24 +128,20 @@ public class ComicController {
             @RequestParam String description,
             @RequestParam String title
     ){
-        String refId=comicService.save(
+        String refId=comicDomain.save(
                 title,
                 Constants.SOURCEFROM.ZIP,
                 "",
                 description
-        );
-        storageService.uploadZip(refId,file);
+        ).getId();
+        Map<String,Object> maps=new HashMap(){{
+            put("refId",refId);
+            put("file",file);
+        }};
+        zipMaterialUD.upload(maps);
         return refId;
     }
 
-    /**
-     * 通过上传文件进行发布
-     */
-
-
-    /**
-     * 通过doc ppt 等方式进行发布
-     */
 
 
 

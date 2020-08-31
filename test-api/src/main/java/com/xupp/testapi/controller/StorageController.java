@@ -5,10 +5,12 @@
 
 package com.xupp.testapi.controller;
 
-import com.xupp.testapi.service.StorageService;
+import com.xupp.testapi.domain.IMaterialUD;
+import com.xupp.testapi.service.CommonService;
 import com.xupp.util.ZipUtils;
 import org.apache.commons.io.FileUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.ResponseEntity;
@@ -34,7 +36,7 @@ public class StorageController {
     private String imgdir;
 
     @Autowired
-    private StorageService storageService;
+    private CommonService commonService;
 
     /**
      * 图片下载
@@ -43,7 +45,8 @@ public class StorageController {
     @GetMapping("/zip/view")
     public List<String> preview(
             @RequestParam  String refId,
-            @RequestParam String type) throws IOException {
+            @RequestParam String type,
+            HttpServletRequest request) throws IOException {
         String httpPath =staticUrl+"/"+refId+"/content";
         //下载的文件夹
         String downPath=imgdir+"/"+refId+"/content";
@@ -53,7 +56,7 @@ public class StorageController {
             new File(downPath).delete();
         }
         ResponseEntity<byte[]> responseEntity=
-                storageService.download(refId,type);
+                commonService.download(refId,type,request);
         byte[] bytes= responseEntity.getBody();
         HttpHeaders httpHeaders= responseEntity.getHeaders();
         String fileName=httpHeaders.getContentDisposition().getFilename();
